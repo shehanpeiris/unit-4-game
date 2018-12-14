@@ -7,7 +7,8 @@ h1 {
     background-color: orange;
     width: 33%;
     text-align: center;
-    padding: 10px;
+    padding: 25px 10px;
+    font-size: 32px;
 }
 
 p {
@@ -21,16 +22,19 @@ p {
     padding: 20px 20px 50px 20px;
     text-align: justify;
     line-height: 1.25;
+    margin-top: 25px;
 }
 
 #target-score {
     /* margin-top: 25px; */
     width: 25%;
+    height: 100px;
     color: gold;
     background-color: darkgreen;
     border: 2px solid gold;
     text-align: center;
     float: left;
+    padding: 15px;
 }
 
 #scoreboard {
@@ -39,8 +43,8 @@ p {
     width: 20%;
     margin-left: 20px;
     padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .container {

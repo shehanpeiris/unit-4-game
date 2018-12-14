@@ -7,6 +7,8 @@
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/> -->
     <!-- Link the style.css file I created to customize the design of my game  -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <!-- Link to jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Link the game.js file that contains the script for the game -->
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
@@ -23,7 +25,7 @@
         <div class="container">
             <div id="target-score">
                 <p id="target-score-heading"><strong>Your target score is:</strong></p>
-                <h2 id="target-score-text">39</h2>
+                <p id="target-score-text"></p>
             </div>
             <div id="scoreboard">
                 <p id="win-text"><strong>Wins: 0</strong></p>
@@ -31,10 +33,10 @@
             </div>
         </div>
         <div class="gem-container">
-            <img id="gem1" src="assets/images/gem1.png">
-            <img id="gem2" src="assets/images/gem2.png">
-            <img id="gem3" src="assets/images/gem3.png">
-            <img id="gem4" src="assets/images/gem4.png">
+            <img class="gem-button" id="gem-pic-one" value = "1" src="assets/images/gem1.png">
+            <img class="gem-button" id="gem-pic-two" value = "2" src="assets/images/gem2.png">
+            <img class="gem-button" id="gem-pic-three" value = "3" src="assets/images/gem3.png">
+            <img class="gem-button" id="gem-pic-four" value = "4" src="assets/images/gem4.png">
         </div>
         <div class="user-container">
             <p id="total-score-heading">Your total score is:</p>
