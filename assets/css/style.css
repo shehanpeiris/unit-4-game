@@ -1,0 +1,64 @@
+.wrapper {
+    background-image: url(../images/pipes.png);
+}
+
+h1 {
+    color: #ffffff;
+    background-color: orange;
+    width: 33%;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#instruction-text {
+    background-color: burlywood;
+    color: #000000;
+    width: 50%;
+    padding: 20px 20px 50px 20px;
+    text-align: justify;
+    line-height: 1.25;
+}
+
+#target-score {
+    /* margin-top: 25px; */
+    width: 25%;
+    color: gold;
+    background-color: darkgreen;
+    border: 2px solid gold;
+    text-align: center;
+    float: left;
+}
+
+#scoreboard {
+    background-color: aquamarine;
+    float: left;
+    width: 20%;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    clear: both;
+    overflow: auto;
+    margin-top: 25px;
+}
+
+.gem-container {
+    clear: both;
+    overflow: auto;
+    margin-top: 25px;
+}
+
+.user-container {
+    background-color: lightcoral;
+    width: 200px;
+    padding: 15px;
+    margin-top: 25px;
+    text-align: center;
+}

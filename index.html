@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Shehan's Crystal Collector Game</title>
+    <!-- Link to CSS reset for cross-browser compatibility before I add my custom styles -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/> -->
+    <!-- Link the style.css file I created to customize the design of my game  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <!-- Link the game.js file that contains the script for the game -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Crystal Collector!</h1>
+        <section id="instruction-text">
+            <p>You will be given a random number at the start of the game. This is your target score.</p>
+            <p>There are four crystals below (green, purple, blue, yellow). Each crystal has a specific number of points associated with it. When you click a crystal, that number of points will be added to your score.</p>
+            <p>You won't be told how many points each crystal is worth; you have to figure that out on your own.</p>
+            <p>The goal of the game is to make your score equal to the target score. If you achieve this, you win! If you go over the target score, you lose.</p>
+            <p>The target score and the value associated with each crystal will change every game.</p>
+        </section>
+        <div class="container">
+            <div id="target-score">
+                <p id="target-score-heading"><strong>Your target score is:</strong></p>
+                <h2 id="target-score-text">39</h2>
+            </div>
+            <div id="scoreboard">
+                <p id="win-text"><strong>Wins: 0</strong></p>
+                <p id="loss-text"><strong>Losses: 0</strong></p>
+            </div>
+        </div>
+        <div class="gem-container">
+            <img id="gem1" src="assets/images/gem1.png">
+            <img id="gem2" src="assets/images/gem2.png">
+            <img id="gem3" src="assets/images/gem3.png">
+            <img id="gem4" src="assets/images/gem4.png">
+        </div>
+        <div class="user-container">
+            <p id="total-score-heading">Your total score is:</p>
+            <div id="user-score">
+                <h2 id="user-score-text">0</h2>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+</body>
+</html>
