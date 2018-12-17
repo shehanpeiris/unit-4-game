@@ -7,7 +7,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/> -->
     <!-- Link the style.css file I created to customize the design of my game  -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-    <!-- Link to jQuery CDN -->
+    <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Link the game.js file that contains the script for the game -->
     <script type="text/javascript" src="assets/javascript/game.js"></script>
@@ -15,7 +15,7 @@
 <body>
     <div class="wrapper">
         <h1>Crystal Collector!</h1>
-        <section id="instruction-text">
+        <section class="instruction-text">
             <p>You will be given a random number at the start of the game. This is your target score.</p>
             <p>There are four crystals below (green, purple, blue, yellow). Each crystal has a specific number of points associated with it. When you click a crystal, that number of points will be added to your score.</p>
             <p>You won't be told how many points each crystal is worth; you have to figure that out on your own.</p>
@@ -23,23 +23,23 @@
             <p>The target score and the value associated with each crystal will change every game.</p>
         </section>
         <div class="container">
-            <div id="target-score">
-                <p id="target-score-heading"><strong>Your target score is:</strong></p>
+            <div class="target-score">
+                <p id="target-score-heading"><b>Your target score is:</b></p>
                 <p id="target-score-text"></p>
             </div>
-            <div id="scoreboard">
+            <div class="scoreboard">
                 <p id="win-text"><strong>Wins: 0</strong></p>
                 <p id="loss-text"><strong>Losses: 0</strong></p>
             </div>
         </div>
         <div class="gem-container">
-            <img class="gem-button" id="gem-pic-one" value = "1" src="assets/images/gem1.png">
-            <img class="gem-button" id="gem-pic-two" value = "2" src="assets/images/gem2.png">
-            <img class="gem-button" id="gem-pic-three" value = "3" src="assets/images/gem3.png">
-            <img class="gem-button" id="gem-pic-four" value = "4" src="assets/images/gem4.png">
+            <img class="gem-button" id="gem-pic-one" value="1" src="assets/images/gem1.png">
+            <img class="gem-button" id="gem-pic-two" value="2" src="assets/images/gem2.png">
+            <img class="gem-button" id="gem-pic-three" value="3" src="assets/images/gem3.png">
+            <img class="gem-button" id="gem-pic-four" value="4" src="assets/images/gem4.png">
         </div>
         <div class="user-container">
-            <p id="total-score-heading">Your total score is:</p>
+            <p id="total-score-heading"><b>Your total score is:</b></p>
             <div id="user-score">
                 <h2 id="user-score-text">0</h2>
             </div>
